@@ -1,29 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <header>
-    <h1>Mi panel de actividades</h1>
+    <h1 id="cabecera">Mi panel de actividades</h1>
   </header>
-
   <main>
-    <section>
+    <section class="tarjeta-actividad">
       <h2>Tareas de hoy</h2>
       <ul>
+
         <li>Comprar café <span class="badge-prioridad">alta</span></li>
         <li>Preparar el informe <span class="badge-prioridad">media</span></li>
       </ul>
     </section>
-
-    <section>
+    <section class="">
       <h2>Nueva tarea</h2>
-      <form>
+      <form class="form">
         <label for="titulo">Título de la tarea</label>
         <input type="text" id="titulo" required maxlength="80">
 
@@ -41,7 +41,6 @@
       </form>
     </section>
   </main>
-
   <footer>
     <p>Panel de actividades, hecho con HTML</p>
   </footer>
